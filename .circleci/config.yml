@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Install Dependencies
-          command: npm install
+          command: npm install --force
       - run:
           name: Build IOS
           command: npx react-native run-ios --configuration Release
