@@ -12,4 +12,4 @@ jobs:
           command: npm install --force
       - run:
           name: Build IOS
-          command: npx react-native run-ios --configuration Release
+          command: npx react-native run-ios
